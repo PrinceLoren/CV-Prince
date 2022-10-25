@@ -1,0 +1,48 @@
+{
+  "topBar": {
+    "menu": {
+      "title": "Menu",
+      "decision": "NAŠE ŘEŠENÍ",
+      "portfolio": "PORTFOLIO",
+      "invest": "INVESTICE",
+      "contact": "KONTAKTY",
+      "subMenu": {
+        "septim": "Septim",
+        "qerko": "Qerko",
+        "grason": "Grason",
+        "pecosta": "Pecosta",
+        "uget": "Uget"
+      },
+      "subTitles": {
+        "septim": "Pokladni system",
+        "qerko": "Platebni aplikace",
+        "grason": "Personalni trziste",
+        "pecosta": "Aukcni nakupy surovin",
+        "uget": "Dodavatelske trziste"
+      }
+    }
+  },
+  "footer": {
+    "address": {
+      "company": "MITON CZ, s.r.o.",
+      "street": "Křižíkova 148/34",
+      "city": "Praha 8",
+      "psc": "186 00",
+      "ico": "IČ: 25417967",
+      "dic": "DIČ: CZ25417967"
+    },
+    "follow": {
+      "title": "SLEDUJTE NÁS",
+      "label": "Odebírat newsletter"
+    },
+    "links": {
+      "title": "ODKAZY",
+      "media": "Pro média",
+      "investment": "Investice",
+      "contacts": "Kontakty"
+    },
+    "portfolio": {
+      "title": "PORTFOLIO"
+    }
+  }
+}

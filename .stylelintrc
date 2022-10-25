@@ -1,0 +1,6 @@
+{
+  "extends": [
+    "stylelint-config-prettier"
+  ],
+  "customSyntax": "@stylelint/postcss-css-in-js"
+}

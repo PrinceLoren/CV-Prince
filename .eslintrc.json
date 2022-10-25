@@ -1,0 +1,32 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "extends": [
+    "prettier"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": "latest",
+    "sourceType": "module"
+  },
+  "plugins": [
+    "react",
+    "@typescript-eslint"
+  ],
+  "rules": {
+    "eslintimport/order": 0,
+    "id-length": 0,
+    "no-void": 0,
+    "react/require-default-props": 0,
+    "import/order": 0,
+    "react/forbid-dom-props": 0,
+    "@typescript-eslint/no-explicit-any": 2,
+    "@typescript-eslint/prefer-nullish-coalescing": 0,
+    "no-implicit-coercion": 0
+  }
+}

@@ -1,0 +1,11 @@
+# files
+**/.DS_Store
+schema.json
+
+#folders
+/.next
+.idea/
+src/@generatedTypes/
+/node_modules/
+.vercel/
+

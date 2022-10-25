@@ -1,0 +1,51 @@
+@keyframes __fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes __slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+@keyframes __slideInRight {
+  from {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+.fadeIn {
+  animation-name: __fadeIn;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  visibility: visible;
+}
+
+.slideInLeft {
+  animation-name: __slideInLeft;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  opacity: 1;
+}
+
+.slideInRight {
+  animation-name: __slideInRight;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  opacity: 1;
+}
