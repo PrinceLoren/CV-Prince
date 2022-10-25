@@ -10,14 +10,8 @@
     "test": "jest",
     "format": "prettier --write --loglevel silent '*/**/*.{ts,tsx,css,md,json}'",
     "lint:css": "stylelint 'src/**/*.{ts,tsx}'",
-    "download-schema": "env-cmd -f environments/.env.${TARGET:-development} yarn helper-ds",
-    "generate-types": "env-cmd -f environments/.env.${TARGET:-development} yarn helper-gs",
-    "helper-ds": "apollo client:download-schema schema.json",
-    "helper-gs": "apollo client:codegen --namespace GTypes --target typescript --globalTypesFile src/@generatedTypes/globalTypes.ts --outputFlat --tsFileExtension d.ts src/@generatedTypes",
     "lint:ts": "eslint --ext .ts,.tsx src",
     "lint": "lint:css && lint:ts",
-    "storybook": "start-storybook -p 3003 --ci",
-    "build-storybook": "build-storybook"
   },
   "dependencies": {
     "@emotion/react": "^11.10.4",
